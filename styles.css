@@ -409,11 +409,12 @@ a.carousel-control-prev, a.carousel-control-next {
 }
 
 .bi {
-  width: 100%;
+  width: 92%;
   display: flex;
   justify-content: center;
   padding-bottom: 5vh;
   color: #0b4f6c;
+  align-items: center;
 }
 
 .lbi {
@@ -780,10 +781,11 @@ a.carousel-control-prev, a.carousel-control-next {
 
   .bi {
     flex-direction: column;
+    width: 100%;
   }
 
   .lbi, .rbi, .pmtd{
-    width: 100%;
+    width: 90%;
   }
 
   .ord {
