@@ -414,17 +414,11 @@ a.carousel-control-prev, a.carousel-control-next {
   justify-content: center;
   padding-bottom: 5vh;
   color: #0b4f6c;
-  align-items: center;
 }
 
 .lbi {
   display: flex;
   justify-content: center;
-}
-
-.bx {
-  width: 90%;
-  margin-top: 2vh;
 }
 
 .ord {
@@ -503,13 +497,13 @@ a.carousel-control-prev, a.carousel-control-next {
   width: 40%;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.crbi, .pmtdi {
-  width: 95%;
-  height: 95%;
+.bx, .crbi, .pmtdi {
+  width: 90%;
 }
+
+.bx {}
 
 .frms label {
   font-size: 1.5rem;
@@ -616,7 +610,7 @@ a.carousel-control-prev, a.carousel-control-next {
 .pmtd {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .pmtdi .chkt {
@@ -780,12 +774,13 @@ a.carousel-control-prev, a.carousel-control-next {
   }
 
   .bi {
+    margin-top: 2vh;
     flex-direction: column;
     width: 100%;
   }
 
-  .lbi, .rbi, .pmtd{
-    width: 90%;
+  .lbi, .rbi, .pmtd {
+    width: 100%;
   }
 
   .ord {
