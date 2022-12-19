@@ -409,9 +409,10 @@ a.carousel-control-prev, a.carousel-control-next {
 }
 
 .bi {
-  width: 90vw;
-  height: 100vh;
+  width: 100%;
   display: flex;
+  justify-content: center;
+  padding-bottom: 5vh;
   color: #0b4f6c;
 }
 
@@ -781,8 +782,8 @@ a.carousel-control-prev, a.carousel-control-next {
     flex-direction: column;
   }
 
-  .lbi, .rbi {
-    width: 90vw;
+  .lbi, .rbi, .pmtd{
+    width: 100%;
   }
 
   .ord {
@@ -1064,10 +1065,6 @@ a.carousel-control-prev, a.carousel-control-next {
 
   .bi {
     flex-direction: row;
-  }
-
-  .lbi, .rbi, .pmtd {
-    width: 30vw;
   }
 
   .bx h4 {
