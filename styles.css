@@ -315,14 +315,14 @@ a.carousel-control-prev, a.carousel-control-next {
 }
 
 /* page2 */
-.page2, .page3,.page4 {
+.page2, .page3, .page4 {
   background-image: url(images/blob-scene-haikei.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.page2 nav {
+.page2 nav, .page3 nav, .page4 nav {
   position: relative;
 }
 
@@ -654,13 +654,20 @@ a.carousel-control-prev, a.carousel-control-next {
   display: none;
 }
 
+.cntn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .lcnxt {
   width: 90%;
-  height: 85vh;
   color: #0b4f6c;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 5vh;
 }
 
 .lcnxt ul {
@@ -689,7 +696,6 @@ a.carousel-control-prev, a.carousel-control-next {
 
 .ddr {
   display: flex;
-
 }
 
 .ddr input[type="text"], .ddr input[type="email"] {
@@ -700,7 +706,8 @@ a.carousel-control-prev, a.carousel-control-next {
   background: none;
   border-bottom: 2px solid #0b4f6c;
 }
-.ddr textarea{
+
+.ddr textarea {
   resize: none;
 }
 
@@ -832,13 +839,16 @@ a.carousel-control-prev, a.carousel-control-next {
     justify-content: center;
     align-items: center;
   }
-  .ddb{
-      flex-direction: column;
-  }
-  .ddr{
+
+  .ddb {
     flex-direction: column;
   }
-  .scls, .ddl,.ddr{
+
+  .ddr {
+    flex-direction: column;
+  }
+
+  .scls, .ddl, .ddr {
     width: 90vw;
   }
 }
@@ -1103,14 +1113,16 @@ a.carousel-control-prev, a.carousel-control-next {
     flex-direction: row;
     justify-content: space-between;
   }
-  .ddb{
-      flex-direction: row;
+
+  .ddb {
+    flex-direction: row;
   }
 
-  .scls, .ddl,.ddr{
+  .scls, .ddl, .ddr {
     width: 30vw;
   }
-  .ddr{
+
+  .ddr {
     flex-direction: column;
   }
 }
